@@ -12,7 +12,7 @@
     scanf("%d",&a);
     if (a<0){printf("You enterd invalid marks out of 100");}
     else if (a>100){printf("You enterd invalid marks out of 100");}
-    else if (a<100)
+    else if (a<=100)
     {printf("You obtained %d marks in CP-I lab ",a);}
     return 0;
   }
