@@ -2,8 +2,8 @@
  -------------------------------------------------------------------------------- 
   Author  :  Haseeb-ul-hassan
   Roll No :  2022MC58
-  Dated   :  02/10/23
-  Purpose :  To find largest number of three using switch satement  only
+  Dated   :  03/10/23
+  Purpose :  To find candidates eligible for insurance
   -------------------------------------------------------------------------------*/
   #include<stdio.h>
   int main()
