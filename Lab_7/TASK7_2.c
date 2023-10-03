@@ -2,18 +2,24 @@
  -------------------------------------------------------------------------------- 
   Author  :  Haseeb-ul-hassan
   Roll No :  2022MC58
-  Dated   :  03/10/23
-  Purpose :  To get an area of triangle
+  Dated   :  02/10/23
+  Purpose :  To find area of the triangle using nested if else satement  only
   -------------------------------------------------------------------------------*/
-#include<stdio.h>
-int main()
-{
-    int a;
-    printf("Enter a five digit number >>");
-    scanf("%d",&a);
-        if (a>9999){if(a<=99999){printf("You entered a  5 digit Number %d",a);}
-                   else{printf("Enter a Valid 5 digit Number");}}
-        else{printf("Enter a Valid 5 digit Number");}
-    return 0;
-
-}
+  #include<stdio.h>
+  #include<math.h>
+  int main()
+  {
+    float a,b,c,e ;
+    float d ;
+    printf("Enter the 1st side of traingle");
+    scanf("%f",&a);
+    printf("Enter the 2nd side of traingle");
+    scanf("%f",&b);
+    printf("Enter the 3rd side of traingle");
+    scanf("%f",&c);
+   d=(a+b+c)/2;
+   e=sqrt(((d-a)*(d-b)*(d-c))*d);
+   if ((a+b)>c &&  (a+c)>b && (b+c)>a){printf("The area of triangle is %.2f",e);}
+   else{printf("the area is invalid");}
+return 0;
+  }
