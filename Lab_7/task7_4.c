@@ -8,18 +8,30 @@
   #include<stdio.h>
   int main()
   {
-    int  a,b,c;
-    printf("Enter the 1st Number");
-    scanf("%d",&a);
-    printf("Enter the 2nd Number");
-    scanf("%d",&b);
-    printf("Enter the 3rd Number");
+    char a,b;
+    int c;
+    printf("Enter Your Martial Statsus (M/S) >>\n");
+    scanf(" %c",&a);
+    printf("Enter Your Gender (M/F)\n");
+    scanf(" %c",&b);
+    printf("Enter your Age\n");
     scanf("%d",&c);
-    if (a>b)
-        {if (a>c){printf("First number is the largest %d",a);}
-        else{}}
+    switch (a)
+    {
+    case ('S'): if (b='M') {if (c>30){printf("Congratulations ! You are eligible for the insurance\n ");}else{if (c>25)
+                        {printf("Congratulations ! You are eligible for the insurance\n");}
+                    
+                    else{printf("We are sorry you are not elligible for insurance");}
+                    }}
+                else{printf("We are sorry you are not elligible for insurance")
+                   ;}
         
-    else{if (b>c){printf("Second  number is the largest %d",b);}
-        else{printf("Third Number is Largest %d",c);}}
+        break;
+        default:
+     printf("Congratulations ! You are eligible for the insurance ");
+        break;
+    }
+
+   
 return 0;
   }
