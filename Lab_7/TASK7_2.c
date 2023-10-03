@@ -19,7 +19,7 @@
     scanf("%f",&c);
    d=(a+b+c)/2;
    e=sqrt(((d-a)*(d-b)*(d-c))*d);
-   if ((a+b)>c &&  (a+c)>b && (b+c)>a){printf("The area of triangle is %.2f",e);}
+   if ((a+b)>c){if ((a+c)>b){if ((b+c)>a){printf("The area of triangle is %.2f",e);}else{printf("the area is invalid");}}else{printf("the area is invalid");}}
    else{printf("the area is invalid");}
 return 0;
   }
