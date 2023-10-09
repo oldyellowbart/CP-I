@@ -3,7 +3,7 @@
   Roll No       :  2022MC58
   Dated         :  09/10/23
   Purpose       :  example 8_1 to get know about the user defined function
-  Disclaimer    :  Code has been writen for educational purpose only 
+  Disclaimer    :  open source Code has been writen for educational purpose only 
   -------------------------------------------------------------------------------*/
 #include<stdio.h>
 int max(int,int); //function declearation of max
