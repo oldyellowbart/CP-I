@@ -12,8 +12,13 @@ int main()
     int a=0,fact;
     printf("Enter Number A >>\n");
     scanf("%d",&a);
-            fact=AB(a); // calling function
-  printf("%d! = %d",a,fact);
+            fact=AB(a);// calling function
+  
+            if (a<=10)
+            {
+             printf("%d! = %d",a,fact);
+            }
+            else{printf("Please Enter within 10\n");} 
    return 0;
 }
 int AB(int q) // user defined function defination and (ab)
@@ -52,7 +57,7 @@ int AB(int q) // user defined function defination and (ab)
  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7)*(q-8)*(q-9));
     break;
   default:
-  printf("Please Enter within 10");
+  printf("Please Enter within 10\n");
     break;
   }
     return e;
