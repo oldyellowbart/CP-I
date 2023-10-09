@@ -1,4 +1,12 @@
+/*-------------------------------------------------------------------------------- 
+  Author        :  Haseeb-ul-hassan
+  Roll No       :  2022MC58
+  Dated         :  09/10/23
+  Purpose       :  example 8_1 to get know about the user defined function
+  Disclaimer    :  Code has been writen for educational purpose only 
+  -------------------------------------------------------------------------------*/
 #include<stdio.h>
+int max(int,int); //function declearation of max
 int main()
 {
     int a=0,b=0,c=0;
@@ -6,11 +14,14 @@ int main()
     scanf("%d",&a);
     printf("Enter Number B\n");
     scanf("%d",&b);
-    if (a>b)
-    {
-        printf("Number A(%d) is Greater Then B(%d) \n",a,b);
-    }
-    else{printf("Number B(%d) is greater then Number A(%d)\n",b,a);}
-return 0;
-    
+   c=max(a,b); //function calling of max
+   printf("Maximum value is %d",c);
+   return 0;
+}
+int max(int q,int r) // user defined function defination and (max)
+{
+    int d;
+    if (q>r){ d=q;}
+    else{d=r;}
+    return d;
 }
