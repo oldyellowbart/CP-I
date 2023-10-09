@@ -2,7 +2,7 @@
   Author        :  Haseeb-ul-hassan
   Roll No       :  2022MC58
   Dated         :  09/10/23
-  Purpose       :  example 8_1 to get know about the user defined function
+  Purpose       :  T6ask 8_1 to get know about the user defined function
   Disclaimer    :  open source Code has been writen for educational purpose only 
   -------------------------------------------------------------------------------*/
 #include<stdio.h>
