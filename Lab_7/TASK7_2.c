@@ -1,10 +1,3 @@
-/*
- -------------------------------------------------------------------------------- 
-  Author  :  Haseeb-ul-hassan
-  Roll No :  2022MC58
-  Dated   :  02/10/23
-  Purpose :  To find area of the triangle using nested if else satement  only
-  -------------------------------------------------------------------------------*/
   #include<stdio.h>
   #include<math.h>
   int main()

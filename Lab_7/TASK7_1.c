@@ -1,11 +1,3 @@
-/*
- -------------------------------------------------------------------------------- 
-  Author  :  Haseeb-ul-hassan
-  Roll No :  2022MC58
-  Dated   :  03/10/23
-  Purpose :  To get a 4 diit number only
-    if else satement  only
-  -------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
