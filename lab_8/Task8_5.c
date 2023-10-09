@@ -9,11 +9,11 @@
 int AB(int); //function declearation of max
 int main()
 {
-    int a=0;
+    int a=0,fact;
     printf("Enter Number A >>\n");
     scanf("%d",&a);
-  AB(a);
-  printf("%d! = %d",a,e);
+            fact=AB(a); // calling function
+  printf("%d! = %d",a,fact);
    return 0;
 }
 int AB(int q) // user defined function defination and (ab)
@@ -28,28 +28,28 @@ int AB(int q) // user defined function defination and (ab)
   e=(q*(q-1));
     break;
     case 3:
-  e=(q*(q-1))+(q*(q-2));
+  e=(q*(q-1)*(q-2));
     break;
     case 4:
-  e=(q*(q-1))+(q*(q-2))+(q*(q-3));
+  e=(q*(q-1)*(q-2)*(q-3));
     break;
     case 5:
-  e=(q*(q-1))+(q*(q-2))+(q*(q-3))+(q*(q-4));
+  e=(q*(q-1)*(q-2)*(q-3)*(q-4));
     break;
     case 6:
-  e=(q*(q-1))+(q*(q-2))+(q*(q-3))+(q*(q-4))+(q*(q-5));
+  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5));
     break;
     case 7:
-  e=(q*(q-1))+(q*(q-2))+(q*(q-3))+(q*(q-4))+(q*(q-5))+(q*(q-6));
+  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6));
     break;
     case 8:
-  e=(q*(q-1))+(q*(q-2))+(q*(q-3))+(q*(q-4))+(q*(q-5))+(q*(q-6))+(q*(q-7));
+  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7));
     break;
     case 9:
-  e=(q*(q-1))+(q*(q-2))+(q*(q-3))+(q*(q-4))+(q*(q-5))+(q*(q-6))+(q*(q-7))+(q*(q-8));
+  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7)*(q-8));
     break;
     case 10:
- e=(q*(q-1))+(q*(q-2))+(q*(q-3))+(q*(q-4))+(q*(q-5))+(q*(q-6))+(q*(q-7))+(q*(q-8))+(q*(q-9));
+ e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7)*(q-8)*(q-9));
     break;
   default:
   printf("Please Enter within 10");
