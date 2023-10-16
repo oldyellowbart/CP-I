@@ -2,63 +2,88 @@
   Author        :  Haseeb-ul-hassan
   Roll No       :  2022MC58
   Dated         :  09/10/23
-  Purpose       :  Task 8_5 : to calculate factorial using  user defined function
+  Purpose       :  Task 8_5 : to print date using user defined function
   Disclaimer    :  open source Code has been writen for educational purpose only 
   -------------------------------------------------------------------------------*/
 #include<stdio.h>
-int Date (int); //function declearation of max
+int Date (int,int,int); //function declearation of max
 int main()
 {
-    int a=0,b=0;
-    printf("Enter Number A >>\n");
+    int a=0,b=0,c=0;
+    printf("Enter  Year >>\n");
     scanf("%d",&a);
-            fact=AB(a);// calling function
-  
-            if (a<=10)
-            {
-             printf("%d! = %d",a,fact);
-            }
-            else{printf("Please Enter within 10\n");} 
-   return 0;
+    printf("Enter  Month >>\n");
+    scanf("%d",&b);
+    printf("Enter  Day >>\n");
+    scanf("%d",&c);
 }
-int AB(int q) // user defined function defination and (ab)
+int Date(int p,int q,int r) // user defined function defination year,month,date
 {
-    int e;
+    char e;
+    int f=0,g=0;
    switch (q)
-  {
+  {  
    case 1:
-   e=1;
+   e='January';
     break;
     case 2:
-  e=(q*(q-1));
+  e='Feburary';
     break;
     case 3:
-  e=(q*(q-1)*(q-2));
+  e='March';
     break;
     case 4:
-  e=(q*(q-1)*(q-2)*(q-3));
+  e='April';
     break;
     case 5:
-  e=(q*(q-1)*(q-2)*(q-3)*(q-4));
+  e='May';
     break;
     case 6:
-  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5));
+  e='June';
     break;
     case 7:
-  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6));
+  e='July';
     break;
     case 8:
-  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7));
+  e='August';
     break;
     case 9:
-  e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7)*(q-8));
+  e='September';
     break;
     case 10:
- e=(q*(q-1)*(q-2)*(q-3)*(q-4)*(q-5)*(q-6)*(q-7)*(q-8)*(q-9));
+  e='October';
     break;
+    case 11:  
+  e='November';
+  break;
+  case 12:
+  e='December';
+  break;
   default:
-  printf("Please Enter within 10\n");
+  printf("Please Enter from 1 to  10\n");
     break;
   }
+  if (p>0){f=p;}
+  else{printf("Enter a valid year greater then 0");}
+
+
+  if(q=1){if (r>0 && r<31){f=r;}}
+  else{printf("Please enter within 1-31");}
+  if(q=2){if (r>0 && r<28){f=r;}}
+  else{printf("Please enter within 1-28");}
+  if(q=3){if (r>0 && r<31){f=r;}}
+  else{printf("Please enter within 1-31");}
+  if(q=4){if (r>0 && r<30){f=r;}}
+  else{printf("Please enter within 1-30");}
+  if(q=5){if (r>0 && r<31){f=r;}}
+  else{printf("Please enter within 1-31");}
+  if(q=6){if (r>0 && r<30){f=r;}}
+  else{printf("Please enter within 1-30");}
+  if(q=7){if (r>0 && r<31){f=r;}}
+  else{printf("Please enter within 1-31");}
+  if(q=8){if (r>0 && r<31){f=r;}}
+  else{printf("Please enter within 1-31");}
+  if(q=9){if (r>0 && r<30){f=r;}}
+  else{printf("Please enter within 1-30");}
     return e;
 }
