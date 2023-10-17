@@ -10,10 +10,21 @@ fact(a);
 }
         void fact(int q)
         {
-        int r=1;
+            if (q==0)
+            {
+                printf("01=0\n");
+            }
+            else if (q<0)
+            {
+               printf("Enter a valid / positive number\n");
+            }
+            else if (q>0)
+            {
+                int r=1;
         for (int i=0; i < q; i++)
         { 
         r=r*(q-i);
         }
         printf("%d!=%d",q,r);
+        };
         }
