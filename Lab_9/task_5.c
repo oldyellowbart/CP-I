@@ -15,8 +15,7 @@ void main()
     scanf("%d",&a);
     if (fact(a)==-1)
     {
-        printf("factorial of %d doesnt exist",
-        )
+        printf("factorial of %d doesnt exist");
     };
 }
 void fact(int num)
@@ -39,15 +38,3 @@ void fact(int num)
     printf("factorial of %d is %d",num,fact);
     }
 }
-    
-    
-    /* int c=0,f=0,g=0;
-            if (d==0 || d<0){
-                if (d=0){printf("0! = 1");}
-                else{printf("Enter  a positive number \n");}}
-            else{while (c<d)
-                        {
-                            g=d-c;
-                            f=g*d;
-                            c++; */
- 

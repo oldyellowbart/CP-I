@@ -3,7 +3,7 @@
   Roll No       :  2022MC58
   Dated         :  17/10/23
   Purpose       :  Task 9_13 to get know about the loops
-                   and print the factorial  of given number using for loop
+                   and print the datesheet with ampersend and percentage sign using for loop
   Disclaimer    :  open source Code has been writen for educational purpose only 
   -------------------------------------------------------------------------------*/
   #include<stdio.h>

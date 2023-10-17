@@ -1,4 +1,11 @@
-//written by 2022mc58
+/*-------------------------------------------------------------------------------- 
+  Author        :  Haseeb-ul-hassan
+  Roll No       :  2022MC58
+  Dated         :  17/10/23
+  Purpose       :  Task 9_10 to get know about the loops
+                   and print the factorial  of given number using for loop
+  Disclaimer    :  open source Code has been writen for educational purpose only 
+  -------------------------------------------------------------------------------*/
 #include<stdio.h>
         void fact(int);
 void main()
