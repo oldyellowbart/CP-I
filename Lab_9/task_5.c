@@ -17,7 +17,7 @@ void main()
     {
         printf("factorial of %d doesnt exist",
         )
-    }
+    };
 }
 void fact(int num)
 {
