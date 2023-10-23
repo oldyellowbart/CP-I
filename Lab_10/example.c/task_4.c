@@ -37,16 +37,9 @@
      for (int d = 0; d < q; d++)
     {
 
-        for (int l = 0; l <= d; l++){printf(" ");}
-         for (int h = d; h >= d; h--)
-      {
-        printf("*");
-
-      }
-    //   for (int t = 0; t > d; t--)
-    //   {
-    //     printf("*");
-    //   }
+         for (int l = 0; l-1 <= d; l++){printf(" ");}
+         for (int y = q; y-1 >= d; y--){printf("*");}
+         for (int u = q ; u-1 > d; u--){printf("*");}
       //lower
       
      printf("\n");
