@@ -34,7 +34,7 @@
       
      printf("\n"); // lower half
     }
-     for (int d = 0; d < q; d++)
+     for (int d = 1; d < q; d++)
     {
 
          for (int l = 0; l-1 <= d; l++){printf(" ");}
