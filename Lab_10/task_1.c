@@ -12,15 +12,8 @@
     int a=0;
     printf("ENTER NUMBER ");
     scanf("%d",&a);
-    star1(a);
-  }
+    star1(a);}
   void star1(int q){
-  for (int i = 0; i < q; i++)
-  {
-    for (int j = q; j > i; j--)
-    {
-        printf("*");
-    }
-    printf("\n");
-  }
-  }
+  for (int i = 0; i < q; i++){
+                              for (int j = q; j > i; j--){printf("*");}
+    printf("\n");}}
