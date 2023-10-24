@@ -28,6 +28,6 @@ for (int i = 0; i < q; i++)
         scanf("%d",&g);
         h=h+g;
     }
-printf("The average of subjects is %.2f\n",h/r);
+printf(" \t The average of subjects is = %.2f\n",h/r);
 }
 }
