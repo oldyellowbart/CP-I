@@ -8,7 +8,6 @@
   #include<stdio.h>
   int sumofseries(int );
   int main()
-  {
     int num=0;
     printf("Enter the Number =>>");
     scanf("%d",&num); 
