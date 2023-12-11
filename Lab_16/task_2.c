@@ -18,9 +18,9 @@
     printf("    |a11   a12   a13| = |%2d %2d %2d|\n",x_array[0],x_array[1],x_array[2]);
     printf("A = |a21   a22   a23| = |%2d %2d %2d|\n",y_array[0],y_array[1],y_array[2]);
     printf("    |a31   a32   a33| = |%2d %2d %2d|\n",z_array[0],z_array[1],z_array[2]);
-    a=xy_array(y_array[0,1],z_array[0,1]);
-    b=xy_array(y_array[0,2],z_array[0,2]);
-    c=xy_array(y_array[1,2],z_array[1,2]);
+    a=xy_array(y_array[0][1],z_array[0][1]);
+    b=xy_array(y_array[0][2],z_array[0][2]);
+    c=xy_array(y_array[1][2],z_array[1][2]);
     d=(a*x_array[0])-(b*x_array[1])+(c*x_array[2]);
     printf("%d",d);
   }
