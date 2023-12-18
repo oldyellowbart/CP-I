@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 int main(){
+    
     // int a=15,*p=&a;
     // printf("\nAdresse pf a = %p=",&a);
     // printf("\nvalue of a is %d",a);
